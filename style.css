@@ -1,0 +1,708 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+body {
+  background-color: #617382;
+  /* width: 100%; */
+  min-height: 100vh;
+  background-size: cover;
+}
+
+
+/* ------------------- Nav bar Begin ---------------------------------- */
+
+.sidebar{
+  display: inline-block;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  background-color: #6d8da6;
+  align-items: center;
+  select {
+    background: #6d8da6;
+    border: none;
+    color: white;
+  }
+  .dashboard{
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  
+}
+
+
+
+nav div a:hover{
+  color: #ffc107;
+}
+nav div select:hover{
+  color: #ffc107;
+}
+nav div b:hover{
+  color: #ffc107;
+}
+
+
+.repo:hover{
+  color: #ffc107;
+}
+
+.pro_admin {
+  font-size: larger;
+  font-weight: bolder;
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  i {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: white;
+  }
+  div:hover {
+    color: white;
+
+  }
+  
+  .dash{
+    padding: 14px;
+    background-color: #ffc107;
+    i:hover{
+      color: #fff;
+    }
+  }
+  .user{
+    padding: 14px;
+    background-color: #ffc107;
+    i:hover{
+      color: #fff;
+    }
+  }
+
+  
+
+}
+
+.logout {
+  color: white;
+}
+
+/* ----------------------- nav bar Complete ---------------------------------- */
+/* class="main" */
+.main {
+  background-color: #617382;
+  width: 100%;
+  margin: 0%;
+}
+.main-welcome {
+  margin: 5%;
+}
+
+.box {
+  height: 350px;
+  width: 540px;
+  color: antiquewhite;
+  background-color: #435c70;
+  font-size: larger;
+  img {
+    height: 60%;
+    width: 520px;
+  }
+
+  p {
+    margin: 5%;
+    /* margin-top: 5%; */
+    padding: 20px;
+  }
+}
+
+.row-1 {
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+}
+.row-1 {
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+}
+#row-2{
+  
+  display: flex;
+  justify-content: space-around;
+}
+
+#box-2 {
+  height: 450px;
+  width: 545px;
+  overflow-y: scroll;
+}
+
+.notification {
+  margin-top: 5%;
+  margin-left: 9%;
+}
+.notify-1 {
+  width: 457px;
+  height: 110px;
+  background-color: #6d8da6;
+  display: flex;
+  p {
+    margin-top: 10px;
+    font-size: small;
+    span {
+      color: orange;
+    }
+    span {
+      font-size: medium;
+    }
+  }
+
+  img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 13px;
+    margin-left: 15px;
+  }
+}
+
+.ordered-list {
+  height: 480px;
+  width: 1200px;
+  background-color: #435c70;
+  margin-top: 0%;
+  margin-left: 3.4%;
+  overflow-y: scroll;
+}
+
+#ord-list {
+  padding-top: 30px;
+  margin-left: 5%;
+}
+
+.table {
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 65rem;
+
+  thead tr td {
+    padding: 10px;
+  }
+
+  tbody tr td {
+    padding: 10px;
+  }
+}
+
+/* Accounts Page */
+.listOfAccounts {
+  margin: 5%;
+  height: 30vh;
+  width: 90%;
+  background-color: #7c8b98;
+  gap: 10px;
+  select {
+    width: 100%;
+  }
+}
+
+#accountsSection {
+  margin: 3%;
+  padding-top: 1%;
+  gap: 50px;
+  h2 {
+    padding-bottom: 20px;
+  }
+  p {
+    padding-bottom: 20px;
+  }
+  #account {
+    background-color: #1f2428;
+  }
+}
+
+
+/* class : Change_Avatar_Account_Settings */
+.Change_Avatar_Account_Settings {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Change_Avatar {
+  margin: 5%;
+  height: 90vh;
+  width: 32%;
+  background-color: #435c70;
+  h2 {
+    padding-top: 5vh;
+    padding-left: 6vh;
+  }
+  img {
+    padding-left: 30px;
+    height: 40vh;
+  }
+  button {
+    width: 80%;
+    height: 10vh;
+    padding: 10px;
+    color: #fff;
+    background-color: #ffc107;
+    margin-left: 9%;
+  }
+  button:hover {
+    background-color: transparent;
+    border: 2px solid #ffc107;
+  }
+}
+
+#Account_Settings {
+  display: block;
+  justify-content: space-around;
+  width: 85%;
+  height: 95vh;
+  div {
+    label {
+      margin: 5%;
+    }
+  }
+  div {
+    input {
+      margin-left: 5%;
+      width: 20vw;
+      height: 10vh;
+      background-color: #617382;
+      font-size: larger;
+    }
+  }
+  div{
+    button{
+      width: 20vw;
+      margin-left: 5vw;
+    }
+  }
+  #update{
+    width: 87%;
+    margin-left: 4vw;
+  }
+}
+
+#Account{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+footer {
+  margin-top: 50px;
+  height: 100px;
+  background-color: #567086;
+
+  #p-center {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-self: center;
+    padding-top: 45px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width:426px){
+  nav{
+    width: 297%;
+    height: 100px;
+  }
+  
+  
+  .main-welcome{
+    /* background-color: aqua; */
+    font-weight: 800;
+  }
+
+  .row-1{
+    margin-left: 15%;
+    display: flex;
+    gap: 30%;
+    width: 50%;
+  }
+
+  #row-2{
+    margin-left: 15%;
+    width: 1100px;
+    gap: 5%;
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  #accountsSection{
+    p{
+      font-size: larger;
+    }
+    
+  }
+
+
+
+  .listOfAccounts{
+    width: 279%;
+  }
+
+
+
+.Change_Avatar_Account_Settings{
+  width: 298%;
+}
+
+.Change_Avatar{
+  h2{
+    text-align: center;
+  }
+}
+
+#Account_Settings div label{
+  margin: 0%;
+  font-size: x-large;
+  
+}
+#Account_Settings div input{
+
+   width: 100%;
+  
+}
+.phone_update_btn div{
+  label{
+    margin-left: -40px;
+  }
+}
+#Account div{
+  margin-left: -40px;
+}
+
+
+
+#Account_Settings {
+  height: 112vh;
+  #profile{
+    width: 53vw;
+    button{
+      margin-left: 10vw;
+    }
+  }
+  
+
+  #update{
+    width: 82%;
+    margin-left: 12.5vw;
+  }
+}
+
+
+footer{
+  width: 297%;
+}
+
+
+
+}
+
+
+/*  Tablet - 329 */
+
+@media screen and (max-width:320px){
+
+  nav{
+
+    height: 100px;
+    width: 380%;
+  }
+  
+  
+  .main-welcome{
+    /* background-color: aqua; */
+    font-weight: 800;
+  }
+
+  .row-1{
+    margin-left: 15%;
+    display: flex;
+    gap: 30%;
+    width: 50%;
+  }
+
+  #row-2{
+    margin-left: 15%;
+    width: 1100px;
+    gap: 5%;
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  #accountsSection{
+    p{
+      font-size: larger;
+    }
+    
+  }
+
+
+
+  .listOfAccounts{
+    width: 279%;
+  }
+
+
+
+.Change_Avatar_Account_Settings{
+  width: 370%;
+}
+
+.Change_Avatar{
+  h2{
+    text-align: center;
+  }
+}
+
+#Account_Settings div label{
+  margin: 0%;
+  font-size: x-large;
+  
+}
+
+.listOfAccounts{
+  width: 350%;
+}
+#Account_Settings div input{
+
+   width: 100%;
+  
+}
+.phone_update_btn div{
+  label{
+    margin-left: -40px;
+  }
+}
+#Account div{
+  margin-left: -40px;
+}
+
+
+
+#Account_Settings {
+  height: 112vh;
+  #profile{
+    width: 53vw;
+    button{
+      margin-left: 10vw;
+    }
+  }
+  
+
+  #update{
+    width: 82%;
+    margin-left: 12.5vw;
+  }
+}
+
+
+footer{
+  width: 380%;
+}
+
+}
+
+
+
+
+/*  Tablet - 768px */
+
+@media screen and (min-width:426px) and (max-width:768px){
+
+/* Nav bar */
+nav{
+
+  height: 100px;
+  width: 380%;
+}
+.dashboard{
+  width: 1330px;
+}
+.box{
+  height: 550px;
+  width: 700px;
+}
+#box-2{
+  width: 686px;
+}
+.ordered-list{
+  width: 2300px;
+  margin-left: 28.5%;
+}
+#ord-list{
+  font-size: 40px;
+}
+.table{
+  width: 2150px;
+}
+.listOfAccounts{
+  font-size: 20px;
+  height: 300px;
+}
+.main-welcome{
+  /* background-color: aqua; */
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.row-1{
+  margin-left: 15%;
+  display: flex;
+  gap: 30%;
+  /* width: 50%; */
+  width: 2500px;
+  margin-bottom: 300px;
+}
+
+#row-2{
+  margin-left: 28%;
+  width: 2300px;
+  gap: 5%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#accountsSection{
+  p{
+    font-size: 30px;
+  }
+  select{
+    font-size: larger;
+  }
+  
+}
+#account option{
+  font-size: medium;
+  width: 50%;
+}
+
+
+
+.listOfAccounts{
+  width: 279%;
+}
+
+
+
+.Change_Avatar_Account_Settings{
+width: 370%;
+}
+
+.Change_Avatar{
+  height: 150vh;
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+img{
+  height: 100vh;
+}
+button{
+  font-size: 30px;
+  padding: 20px;
+  height: 80px;
+}
+}
+
+#Account_Settings div label{
+margin: 0%;
+font-size: x-large;
+
+}
+#phone{
+  position: relative;
+  left: 53px;
+}
+
+.listOfAccounts{
+width: 350%;
+}
+#Account_Settings div input{
+
+ width: 100%;
+
+}
+.phone_update_btn div{
+label{
+  margin-left: -40px;
+}
+}
+#Account div{
+margin-left: -40px;
+}
+
+
+
+#Account_Settings {
+height: 165vh;
+#profile{
+  width: 53vw;
+  position: relative;
+    left: 130px;
+  button{
+    margin-left: 50vw;
+    font-size: xx-small;
+  }
+}
+
+
+#update{
+  width: 82%;
+  margin-left: 21.5vw;
+  margin-top: 130px;
+}
+}
+
+
+footer{
+width: 380%;
+}
+
+}
+

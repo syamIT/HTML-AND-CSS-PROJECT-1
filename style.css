@@ -82,6 +82,7 @@ nav div b:hover{
   .dash{
     padding: 14px;
     background-color: #ffc107;
+    color: #fff;
     i:hover{
       color: #fff;
       padding-top: 10px;

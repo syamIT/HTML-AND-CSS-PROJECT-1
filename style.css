@@ -715,4 +715,12 @@ width: 380%;
 }
 
 }
+/* -------------------------- Mobile (M) - 375px ----------------------------- */
+@media screen and (max-width:376px){
+  nav{
+    width: 323%;
+}
+  footer{
+  width: 323%;
+  }
 

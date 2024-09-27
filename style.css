@@ -87,6 +87,14 @@ nav div b:hover{
       padding-top: 10px;
     }
   }
+  
+  .dash-top{
+        padding: 14px;
+    i:hover{
+      color: #ffc107;
+      padding-top: 10px;
+    }
+  }
   .user{
     padding: 14px;
     background-color: #ffc107;

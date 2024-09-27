@@ -84,6 +84,7 @@ nav div b:hover{
     background-color: #ffc107;
     i:hover{
       color: #fff;
+      padding-top: 10px;
     }
   }
   .user{
